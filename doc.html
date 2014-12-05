@@ -37,25 +37,36 @@
 </ul>
 <h1 id="zenmark-js">Zenmark.js</h1>
 <p><a href="http://badge.fury.io/js/zenmark"><img src="https://badge.fury.io/js/zenmark.svg" alt="NPM version"></a></p>
-<h2 id="what-is-zenmark-js-">What is zenmark.js?</h2>
-<p>A simple way to parse markdown and generates static website.</p>
-<h2 id="how-to-install">How to install</h2>
-<p>Install zenmark</p>
-<pre><code class="lang-dash">$ npm <span class="hljs-keyword">install</span> zenmark -g
+<h2 id="navigater-json">navigater.json</h2>
+<p>Json for the list </p>
+<p>There are three arguments for the Object</p>
+<p><strong>name: page name</strong></p>
+<p><strong>file: markdown file name</strong></p>
+<p><strong>link: link src</strong></p>
+<p>Your can choose one from &#39;file&#39; and &#39;link&#39;</p>
+<p>Example:</p>
+<pre><code class="lang-javascript"><span class="hljs-collection">[<span class="hljs-collection">{
+    <span class="hljs-string">"name"</span>:<span class="hljs-string">"Quick start"</span>, // page name 
+    <span class="hljs-string">"file"</span>:<span class="hljs-string">"index.md"</span> // file name
+}</span>,
+<span class="hljs-collection">{
+    <span class="hljs-string">"name"</span>:<span class="hljs-string">"Document"</span>,
+    <span class="hljs-string">"file"</span>:<span class="hljs-string">"doc.md"</span>
+}</span>,
+<span class="hljs-collection">{
+    <span class="hljs-string">"name"</span>:<span class="hljs-string">"Github"</span>,
+    <span class="hljs-string">"link"</span>:<span class="hljs-string">"https://github.com/findyourmagic/zenmark"</span> // link src
+}</span>]</span>
 </code></pre>
-<p>Get the basic template</p>
+<h2 id="theme">theme</h2>
+<p>There is just one theme util now</p>
 <pre><code class="lang-dash">$ git clone -<span class="hljs-tag">b</span> gh-pages https:<span class="hljs-comment">//github.com/findyourmagic/zenmark.git</span>
 </code></pre>
-<h2 id="how-to-use">How to use</h2>
-<pre><code class="lang-dash">$ <span class="hljs-built_in">cd</span> zenmark
-</code></pre>
-<p>Put your markdowns in &#39;/markdown&#39; folder</p>
-<p>Edit your document list in &#39;/navigater.json&#39;</p>
-<p>And then</p>
-<pre><code class="lang-dash"><span class="hljs-variable">$ </span>zenmark
-</code></pre>
-<p>You can find the html in the zenmark folder</p>
-<p>Upload and enjoy</p>
+<p>Images,css and javascripts in &#39;/static&#39;</p>
+<p>Header and Footer in &#39;/template&#39;.Just htmls, change the title and other things as you wish</p>
+<p>List &#39;nav.html&#39; is a file of ejs,it is easy to understand</p>
+<h2 id="todo">Todo</h2>
+<p>Will add more theme soon</p>
 </div>
 <div class="footer">
 <p>Zenmark.js</p>

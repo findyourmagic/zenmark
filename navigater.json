@@ -1,4 +1,12 @@
 [{
-	"name":"How to use",
+	"name":"Quick start",
 	"file":"index.md"
+},
+{
+	"name":"Document",
+	"file":"doc.md"
+},
+{
+	"name":"Github",
+	"link":"https://github.com/findyourmagic/zenmark"
 }]
