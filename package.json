@@ -1,7 +1,7 @@
 {
   "name": "zenmark",
-  "version": "0.0.13",
-  "description": "a markdown to html document tool",
+  "version": "0.1.0",
+  "description": "A simple way to parse markdown and generates static website.",
   "main": "./lib/zenmark.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
