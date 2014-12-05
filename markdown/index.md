@@ -1,4 +1,4 @@
-# ZENMARK
+# Zenmark
 
 
 [![NPM version](https://badge.fury.io/js/zenmark.svg)](http://badge.fury.io/js/zenmark)
