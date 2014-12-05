@@ -1,6 +1,6 @@
 {
   "name": "zenmark",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "a markdown to html document tool",
   "main": "./lib/zenmark.js",
   "scripts": {
