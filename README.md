@@ -1,6 +1,4 @@
-# Zenmark.js
-
-## [Zenmark.js Documents](http://findyourmagic.github.io/zenmark/)
+# [Zenmark.js](http://findyourmagic.github.io/zenmark/)
 
 ## What is zenmark.js?
 

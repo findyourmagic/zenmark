@@ -1,6 +1,6 @@
 {
   "name": "zenmark",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple way to parse markdown and generates static website.",
   "main": "./lib/zenmark.js",
   "scripts": {
