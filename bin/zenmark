@@ -1,0 +1,3 @@
+#!/usr/bin/env node
+var zenmark = require('../lib/zenmark');
+zenmark();
